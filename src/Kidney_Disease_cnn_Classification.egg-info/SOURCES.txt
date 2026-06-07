@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/Kidney-Disease-cnn-Classification/__init__.py
+src/Kidney-Disease-cnn-Classification/components/__init__.py
+src/Kidney-Disease-cnn-Classification/config/__init__.py
+src/Kidney-Disease-cnn-Classification/config/configuration.py
+src/Kidney-Disease-cnn-Classification/constants/__init__.py
+src/Kidney-Disease-cnn-Classification/entity/__init__.py
+src/Kidney-Disease-cnn-Classification/pipeline/__init__.py
+src/Kidney-Disease-cnn-Classification/utils/__init__.py
+src/Kidney_Disease_cnn_Classification.egg-info/PKG-INFO
+src/Kidney_Disease_cnn_Classification.egg-info/SOURCES.txt
+src/Kidney_Disease_cnn_Classification.egg-info/dependency_links.txt
+src/Kidney_Disease_cnn_Classification.egg-info/top_level.txt

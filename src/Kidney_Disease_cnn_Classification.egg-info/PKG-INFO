@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Kidney-Disease-cnn-Classification
+Version: 0.0.0
+Summary: A small python package for classification of kidney disease
+Home-page: https://github.com/Nishu2003-dev/Kidney-Disease-Classification-MLflow-DVC
+Author: Nishu2003-dev
+Author-email: nishantgupta0945@gmail.com
+Project-URL: Bug Tracker, https://github.com/Nishu2003-dev/Kidney-Disease-Classification-MLflow-DVC/issues
+Description-Content-Type: text/markdown
