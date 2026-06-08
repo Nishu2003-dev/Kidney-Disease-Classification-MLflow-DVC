@@ -41,3 +41,5 @@ dist/
 
 # Mypy
 .mypy_cache/
+
+artifacts/*
