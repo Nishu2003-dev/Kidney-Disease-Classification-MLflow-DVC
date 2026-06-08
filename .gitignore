@@ -23,6 +23,7 @@ mlruns/
 
 # DVC outputs
 artifacts/
+artifacts/*
 
 # VS Code
 .vscode/
@@ -43,4 +44,3 @@ dist/
 .mypy_cache/
 
 
-artifacts/*
