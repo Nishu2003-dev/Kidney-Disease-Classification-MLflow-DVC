@@ -1,18 +1,18 @@
 from Kidney_Disease_cnn_Classification import logger 
 from Kidney_Disease_cnn_Classification.pipeline.stage_01_data_ingestion import DataIngestionTrainPipeline
 from Kidney_Disease_cnn_Classification.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
+from Kidney_Disease_cnn_Classification.pipeline.stage_03_model_training import ModelTrainingPipeline
 
+STAGE_NAME="Data Ingestion Stage"
 
-#STAGE_NAME="Data Ingestion Stage"
-
-'''try:
+try:
     logger.info(f">>>>> stage {STAGE_NAME} started <<<<<<<")
     obj = DataIngestionTrainPipeline()
     obj.main()
     logger.info(f">>>>> stage {STAGE_NAME} completed <<<<<<< \n\nX=======X")
 except Exception as e:
     logger.exception(e)
-    raise e '''
+    raise e 
 
 
 STAGE_NAME = "Prepare base Model"
@@ -21,6 +21,19 @@ try:
     logger.info(f"************")
     logger.info(f">>>>> stage {STAGE_NAME} started <<<<<<<<")
     obj = PrepareBaseModelTrainingPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<<\n\n")
+        
+except Exception as e:
+    logger.exception(e)
+    raise e
+        
+STAGE_NAME = "Model training"
+
+try:
+    logger.info(f"************")
+    logger.info(f">>>>> stage {STAGE_NAME} started <<<<<<<<")
+    obj = ModelTrainingPipeline()
     obj.main()
     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<<\n\n")
         
